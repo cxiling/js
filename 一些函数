@@ -1,1 +1,6 @@
-toUpperCase() 方法用于把字符串转换为大写
+1.toUpperCase() 方法用于把字符串转换为大写
+
+2.var i = 10;
+var s = i.toString();
+alert(typeof s);     //将输出 String
+
