@@ -8,9 +8,14 @@ alert(typeof s);     //将输出 String
     1.丢弃小数部分,保留整数部分
     parseInt(5/2)
     2.向上取整,有小数就整数部分加1
-     Math.ceil(5/2)
+    Math.ceil(5/2)
     3,四舍五入.
     Math.round(5/2)
     4,向下取整
-     Math.floor(5/2)
+    Math.floor(5/2)
 
+4.filter的使用：
+    var arr=[1,23,5,78,34,55,13];
+    找到大于23的所有元素，
+    arr.filter(function(element,pos){return element>23})
+    与each比较，比each快得多，filter中的callback 函数直接返回了所有符合条件的函数，而each()是一条一条查找。
